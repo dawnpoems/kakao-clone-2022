@@ -1,3 +1,3 @@
 # KaKao Clone 2022 Update
 
-CSS got so much better!
+Can I make my kimkimtalk?
