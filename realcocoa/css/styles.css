@@ -5,20 +5,8 @@ body {
 
 .status-bar {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
-.status-bar__column {
-  width: 33%;
-}
-.status-bar :nth-child(2) {
-  display: flex;
-  justify-content: center;
-}
-.status-bar :last-child {
-  display: flex;
-  justify-content: flex-end;
-}
-
 .status-bar :first-child span {
   margin-right: 5px;
 }
