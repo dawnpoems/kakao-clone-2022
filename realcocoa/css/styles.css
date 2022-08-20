@@ -1,3 +1,6 @@
+@import url(reset.css);
+@import url(variables.css);
+
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -9,4 +12,39 @@ body {
 }
 .status-bar :first-child span {
   margin-right: 5px;
+}
+.Welcome-header {
+  margin: 120px 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Welcome-header__title {
+  margin-bottom: 50px;
+  font-size: 30px;
+  font-weight: 500;
+}
+.Welcome-header__text {
+  width: 50%;
+  opacity: 0.7;
+}
+#login-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 40px;
+}
+#login-form input {
+  border: none;
+  padding: 20px 0px;
+  font-size: 18px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.4);
+  margin-bottom: 25px;
+  transition: border-color 0.3s ease-in-out;
+}
+#login-form input ::placeholder {
+  color: rgba(0, 0, 0, 0.2);
+}
+#login-form input:focus {
+  border-color: var(--yellow);
 }
