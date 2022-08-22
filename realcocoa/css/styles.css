@@ -3,6 +3,7 @@
 
 /* components */
 @import url(components/status-bar.css);
+@import url(components/nav-bar.css);
 
 /*Screens*/
 @import url(screens/login.css);
