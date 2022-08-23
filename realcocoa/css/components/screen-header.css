@@ -13,3 +13,8 @@
 .screen-header__icons span {
   margin-left: 20px;
 }
+
+.friends-screen__channel-header i {
+  position: relative;
+  top: 2px;
+}
