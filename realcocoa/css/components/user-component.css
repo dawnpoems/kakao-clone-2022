@@ -19,7 +19,7 @@
 }
 .user-component__subtitle {
   margin-top: 7px;
-  color: rgba(0, 0, 0, 0.6);
+  color: var(--gray-text);
 }
 .user-component__avatar--xl {
   width: 80px;
