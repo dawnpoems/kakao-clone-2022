@@ -13,6 +13,7 @@
   height: 70px;
   border-radius: 30px;
   margin-right: 20px;
+  object-fit: cover;
 }
 .user-component__title {
   font-size: 24px;
@@ -27,12 +28,14 @@
   height: 80px;
   border-radius: 35px;
   margin-right: 20px;
+  object-fit: cover;
 }
 .user-component__avatar--sm {
   width: 60px;
   height: 60px;
   border-radius: 25px;
   margin-right: 20px;
+  object-fit: cover;
 }
 
 .user-component__title--not-bold {
