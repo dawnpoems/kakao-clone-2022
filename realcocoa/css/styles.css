@@ -9,6 +9,7 @@
 @import url(components/user-component.css);
 @import url(components/badge.css);
 @import url(components/icon-row.css);
+@import url(components/big-screen.css);
 
 /*Screens*/
 @import url(screens/login.css);
