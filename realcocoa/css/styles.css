@@ -15,6 +15,7 @@
 @import url(screens/friends.css);
 @import url(screens/find.css);
 @import url(screens/more.css);
+@import url(screens/chatpage.css);
 
 body {
   color: #2e363e;
